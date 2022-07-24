@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #2A437A;
-    --secundary-color: ##5488F7;
-    --shadow-color: #436CC4;
-    --text-color: #9FBBF9;
-    --input-color: #5C6579;
-
-}
-
 body{
     min-height: 100vh;
     display: flex;
@@ -30,7 +21,7 @@ header{
 }
 
 .header-title{
-    color: black;
+    color: var(--text-color);
     font-size: 2rem;
 }
 
@@ -61,4 +52,12 @@ main{
         width:100%;
         box-shadow: none;
     }
+}
+
+:root{
+    --primary-color: #2A437A;
+    --secundary-color: ##5488F7;
+    --shadow-color: #436CC4;
+    --text-color: #ffffff;
+    --input-color: #97a2b847;
 }
